@@ -1,0 +1,119 @@
+body {
+    background-color: #F6F7FB;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .timer {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    position: relative;
+  }
+
+  .timer__time {
+    font-size: 5rem;
+    color: #2D2F33;
+  }
+
+  .timer__status {
+    position: absolute;
+    bottom: -30px;
+    font-size: 1.5rem;
+    color: #8F8F8F;
+    text-transform: uppercase;
+  }
+
+  .btn {
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: none;
+    color: #2D2F33;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  .btn:hover {
+    background-color: #E2E2E2;
+  }
+
+  .btn--start {
+    margin-right: 20px;
+  }
+
+  .btn--pause {
+    background-color: #E55039;
+    color: #ffffff;
+  }
+
+  .btn--pause:hover {
+    background-color: #C0392B;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  .timer-container {
+    background-color: white;
+    border-radius: 50%;
+    padding: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .timer {
+    font-size: 7rem;
+    font-weight: bold;
+    text-align: center;
+    color: #3a3a3a;
+    margin: 0;
+  }
+  
+  .buttons {
+    display: flex;
+  }
+  
+  button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    color: #3a3a3a;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3a3a3a;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
